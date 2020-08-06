@@ -38,7 +38,7 @@ const program = new commander.Command(packageJson.name)
   .parse(process.argv);
 
 clear();
-console.log(chalk.green(figlet.textSync('Cra', { font: 'Cyberlarge' })));
+console.log(chalk.green(figlet.textSync('Cmra', { font: 'Cyberlarge' })));
 
 if (typeof projectName === 'undefined') {
   console.error('Please specify the project directory:');

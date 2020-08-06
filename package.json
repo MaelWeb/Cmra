@@ -1,6 +1,6 @@
 {
-  "name": "cra",
-  "version": "1.0.0",
+  "name": "cmra",
+  "version": "1.0.1",
   "description": "A commander line for create my own React App.",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,10 @@
     "babel": "npx babel src -w --out-dir dist"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^7.3.3",
     "chalk": "^4.1.0",
@@ -22,7 +22,7 @@
     "open": "^7.1.0"
   },
   "bin": {
-    "cra": "./index.js"
+    "cmra": "./index.js"
   },
   "devDependencies": {}
 }
